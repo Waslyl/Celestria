@@ -1,10 +1,7 @@
-﻿// This Source Code Form is subject to the terms of the MIT License.
-// If a copy of the MIT was not distributed with this file, You can obtain one at https://opensource.org/licenses/MIT.
-// Copyright (C) Leszek Pomianowski and WPF UI Contributors.
-// All Rights Reserved.
-
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System;
 using System.IO;
 using System.Reflection;
 using System.Windows;
@@ -16,9 +13,9 @@ namespace Celestria
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
-    public partial class App
+    public partial class App : Application
     {
-        // The.NET Generic Host provides dependency injection, configuration, logging, and other services.
+        // The .NET Generic Host provides dependency injection, configuration, logging, and other services.
         // https://docs.microsoft.com/dotnet/core/extensions/generic-host
         // https://docs.microsoft.com/dotnet/core/extensions/dependency-injection
         // https://docs.microsoft.com/dotnet/core/extensions/configuration
@@ -28,7 +25,8 @@ namespace Celestria
             .ConfigureAppConfiguration(c => { c.SetBasePath(Path.GetDirectoryName(Assembly.GetEntryAssembly()!.Location)); })
             .ConfigureServices((context, services) =>
             {
-                throw new NotImplementedException("No service or window was registered.");
+                // Register services and windows here
+                services.AddSingleton<MainWindow>();
             }).Build();
 
         /// <summary>
@@ -48,6 +46,9 @@ namespace Celestria
         private void OnStartup(object sender, StartupEventArgs e)
         {
             _host.Start();
+            // Retrieve the MainWindow from services and set it as the startup window
+            var mainWindow = GetService<MainWindow>();
+            mainWindow?.Show();
         }
 
         /// <summary>
@@ -56,7 +57,6 @@ namespace Celestria
         private async void OnExit(object sender, ExitEventArgs e)
         {
             await _host.StopAsync();
-
             _host.Dispose();
         }
 
