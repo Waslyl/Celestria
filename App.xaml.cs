@@ -46,7 +46,6 @@ namespace Celestria
         private void OnStartup(object sender, StartupEventArgs e)
         {
             _host.Start();
-            // Retrieve the MainWindow from services and set it as the startup window
             var mainWindow = GetService<MainWindow>();
             mainWindow?.Show();
         }
