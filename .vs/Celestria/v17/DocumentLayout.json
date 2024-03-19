@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\andre\\source\\repos\\Celestria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D79F5810-1B8B-43FC-8A15-0CF98A137A31}|Celestria.csproj|c:\\users\\andre\\source\\repos\\celestria\\celestria.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D79F5810-1B8B-43FC-8A15-0CF98A137A31}|Celestria.csproj|solutionrelative:celestria.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{D79F5810-1B8B-43FC-8A15-0CF98A137A31}|Celestria.csproj|C:\\Users\\andre\\source\\repos\\Celestria\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D79F5810-1B8B-43FC-8A15-0CF98A137A31}|Celestria.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D79F5810-1B8B-43FC-8A15-0CF98A137A31}|Celestria.csproj|c:\\users\\andre\\source\\repos\\celestria\\pages\\download.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{D79F5810-1B8B-43FC-8A15-0CF98A137A31}|Celestria.csproj|C:\\Users\\andre\\source\\repos\\Celestria\\pages\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D79F5810-1B8B-43FC-8A15-0CF98A137A31}|Celestria.csproj|solutionrelative:pages\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D79F5810-1B8B-43FC-8A15-0CF98A137A31}|Celestria.csproj|C:\\Users\\andre\\source\\repos\\Celestria\\pages\\download.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D79F5810-1B8B-43FC-8A15-0CF98A137A31}|Celestria.csproj|solutionrelative:pages\\download.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -15,20 +19,12 @@
       "RelativeMoniker": "D:0:0:{D79F5810-1B8B-43FC-8A15-0CF98A137A31}|Celestria.csproj|solutionrelative:pages\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D79F5810-1B8B-43FC-8A15-0CF98A137A31}|Celestria.csproj|C:\\Users\\andre\\source\\repos\\Celestria\\pages\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D79F5810-1B8B-43FC-8A15-0CF98A137A31}|Celestria.csproj|solutionrelative:pages\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D79F5810-1B8B-43FC-8A15-0CF98A137A31}|Celestria.csproj|C:\\Users\\andre\\source\\repos\\Celestria\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D79F5810-1B8B-43FC-8A15-0CF98A137A31}|Celestria.csproj|c:\\users\\andre\\source\\repos\\celestria\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D79F5810-1B8B-43FC-8A15-0CF98A137A31}|Celestria.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D79F5810-1B8B-43FC-8A15-0CF98A137A31}|Celestria.csproj|C:\\Users\\andre\\source\\repos\\Celestria\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D79F5810-1B8B-43FC-8A15-0CF98A137A31}|Celestria.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D79F5810-1B8B-43FC-8A15-0CF98A137A31}|Celestria.csproj|C:\\Users\\andre\\source\\repos\\Celestria\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D79F5810-1B8B-43FC-8A15-0CF98A137A31}|Celestria.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D79F5810-1B8B-43FC-8A15-0CF98A137A31}|Celestria.csproj|C:\\Users\\andre\\source\\repos\\Celestria\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -42,32 +38,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Celestria",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\Celestria\\Celestria.csproj",
-              "RelativeDocumentMoniker": "Celestria.csproj",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\Celestria\\Celestria.csproj",
-              "RelativeToolTip": "Celestria.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-19T16:09:18.645Z",
+              "DocumentIndex": 1,
+              "Title": "Home.xaml",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\Celestria\\Pages\\Home.xaml",
+              "RelativeDocumentMoniker": "Pages\\Home.xaml",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\Celestria\\Pages\\Home.xaml",
+              "RelativeToolTip": "Pages\\Home.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-18T23:01:40.943Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Download.xaml",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\Celestria\\Pages\\Download.xaml",
+              "RelativeDocumentMoniker": "Pages\\Download.xaml",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\Celestria\\Pages\\Download.xaml",
+              "RelativeToolTip": "Pages\\Download.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-18T23:36:26.588Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\Celestria\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\Celestria\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA9wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T18:11:58.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Home.xaml.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\Celestria\\Pages\\Home.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\Home.xaml.cs",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\Celestria\\Pages\\Home.xaml.cs",
               "RelativeToolTip": "Pages\\Home.xaml.cs",
-              "ViewState": "AQIAAJcAAAAAAAAAAAAiwLwAAAAAAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAQwGMAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T13:56:11.866Z"
+              "WhenOpened": "2024-03-19T13:56:11.866Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -83,53 +106,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Download.xaml",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\Celestria\\Pages\\Download.xaml",
-              "RelativeDocumentMoniker": "Pages\\Download.xaml",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\Celestria\\Pages\\Download.xaml",
-              "RelativeToolTip": "Pages\\Download.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-18T23:36:26.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Home.xaml",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\Celestria\\Pages\\Home.xaml",
-              "RelativeDocumentMoniker": "Pages\\Home.xaml",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\Celestria\\Pages\\Home.xaml",
-              "RelativeToolTip": "Pages\\Home.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-18T23:01:40.943Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\Celestria\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\Celestria\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAQwA0AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T22:19:19.668Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\Celestria\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\Celestria\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-18T22:09:46.355Z"
+              "WhenOpened": "2024-03-18T22:09:46.355Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\Celestria\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",

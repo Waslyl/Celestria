@@ -36,7 +36,7 @@ namespace Celestria
                 }
                 foreach (var folderInfo in folderInfoList)
                 {
-                    BuildList(folderInfo.buildName, folderInfo.ImageUrl);
+                    BuildList(folderInfo.buildName, folderInfo.ImageUrl, folderInfo.folderPath);
                 }
             }
             else
@@ -66,8 +66,8 @@ namespace Celestria
                     bool buildExists = false;
 
                     if (buildName == "9.10")
-                    {   
-                        buildName= " 9.10";
+                    {
+                        buildName = " 9.10";
                         imageUrl = "https://upload.wikimedia.org/wikipedia/commons/7/7c/Fortnite_F_lettermark_logo.png";
                     }
                     else if (buildName.Contains("12.41"))
@@ -83,12 +83,52 @@ namespace Celestria
                     else if (buildName.Contains("17.30"))
                     {
                         buildName = "17.30";
-                        imageUrl = "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQJDxx1fTpccMNBLjq_ZI45Qv91LYBeQd9C5QU2cHDIMxQAIAgt";
+                        imageUrl = "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTt8MSSeOfubAbpy7773Kn0qSk5O1giuKSgTJNEEWTLozRYmLts";
                     }
                     else if (buildName.Contains("13.40"))
                     {
                         buildName = "13.40";
                         imageUrl = "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQJDxx1fTpccMNBLjq_ZI45Qv91LYBeQd9C5QU2cHDIMxQAIAgt";
+                    }
+                    else if (buildName.Contains("14.30"))
+                    {
+                        buildName = "14.30";
+                        imageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDq2YXW7riEufXfU2d0OTZiGFn4H1cDeyFW29qNDKhTpmeEVe_";
+                    }
+                    else if (buildName.Contains("14.60"))
+                    {
+                        buildName = "14.60";
+                        imageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDq2YXW7riEufXfU2d0OTZiGFn4H1cDeyFW29qNDKhTpmeEVe_";
+                    }
+                    else if (buildName.Contains("15.30"))
+                    {
+                        buildName = "15.30";
+                        imageUrl = "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTNfgc7excW4wqe9gmKZegEZxqr0Ik_4eXUbjQnLmzeuCPo4jvd";
+                    }
+                    else if (buildName.Contains("16.40"))
+                    {
+                        buildName = "16.40";
+                        imageUrl = "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSClL2a4VpwU6NbBb307Ay6HvmtAG01RBZjurisCLNOe2Oy_U1F";
+                    }
+                    else if (buildName.Contains("18.40"))
+                    {
+                        buildName = "18.40";
+                        imageUrl = "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSClL2a4VpwU6NbBb307Ay6HvmtAG01RBZjurisCLNOe2Oy_U1F";
+                    }
+                    else if (buildName.Contains("19.10"))
+                    {
+                        buildName = "19.10";
+                        imageUrl = "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSPb7kThRI1NPQ7yNFGPUITZv07dhfMkb38QPNLFs9W_0ab7Tyr";
+                    }
+                    else if (buildName.Contains("20.40"))
+                    {
+                        buildName = "20.40";
+                        imageUrl = "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSClL2a4VpwU6NbBb307Ay6HvmtAG01RBZjurisCLNOe2Oy_U1F";
+                    }
+                    else if (buildName.Contains("21.40"))
+                    {
+                        buildName = "21.40";
+                        imageUrl = "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSWSVRZmTvq3Os0A2MAjgWz_ku5pfpvu6axiHhEZP9-mNFVFBE4";
                     }
                     else if (buildName.Contains("1.11"))
                     {
@@ -105,15 +145,60 @@ namespace Celestria
                         buildName = "1.7.2";
                         imageUrl = "https://cdn.itztiva.com/ogfnlogo.jpg";
                     }
-                                        else if (buildName.Contains("1.7.2"))
+                    else if (buildName.Contains("1.7.2"))
                     {
                         buildName = "1.7.2";
                         imageUrl = "https://cdn.itztiva.com/ogfnlogo.jpg";
                     }
+                    else if (buildName.Contains("8.51"))
+                    {
+                        buildName = " 8.51";
+                        imageUrl = "https://upload.wikimedia.org/wikipedia/commons/7/7c/Fortnite_F_lettermark_logo.png";
+                    }
+                    else if (buildName.Contains("8.40"))
+                    {
+                        buildName = " 8.40";
+                        imageUrl = "https://upload.wikimedia.org/wikipedia/commons/7/7c/Fortnite_F_lettermark_logo.png";
+                    }
+                    else if (buildName.Contains("8.30"))
+                    {
+                        buildName = " 8.30";
+                        imageUrl = "https://upload.wikimedia.org/wikipedia/commons/7/7c/Fortnite_F_lettermark_logo.png";
+                    }
+                    else if (buildName.Contains("8.20"))
+                    {
+                        buildName = " 8.20";
+                        imageUrl = "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQJDxx1fTpccMNBLjq_ZI45Qv91LYBeQd9C5QU2cHDIMxQAIAgt";
+                    }
+                    else if (buildName.Contains("8.10"))
+                    {
+                        buildName = " 8.10";
+                        imageUrl = "https://upload.wikimedia.org/wikipedia/commons/7/7c/Fortnite_F_lettermark_logo.png";
+                    }
+                    else if (buildName.Contains("8.00"))
+                    {
+                        buildName = " 8.00";
+                        imageUrl = "https://upload.wikimedia.org/wikipedia/commons/7/7c/Fortnite_F_lettermark_logo.png";
+                    }
+                    else if (buildName.Contains("7.40"))
+                    {
+                        buildName = " 7.40";
+                        imageUrl = "https://upload.wikimedia.org/wikipedia/commons/7/7c/Fortnite_F_lettermark_logo.png";
+                    }
+                    else if (buildName.Contains("7.30"))
+                    {
+                        buildName = " 7.30";
+                        imageUrl = "https://upload.wikimedia.org/wikipedia/commons/7/7c/Fortnite_F_lettermark_logo.png";
+                    }
+                    else if (buildName.Contains("c2258301-017b-4b6b-89e8-9c5ffea5767c"))
+                    {
+                        buildName = " 7.40";
+                        imageUrl = "https://upload.wikimedia.org/wikipedia/commons/7/7c/Fortnite_F_lettermark_logo.png";
+                    }
                     else
                     {
-                        buildName =  "Error";
-                        imageUrl = "https://fortnite.gg/img/assets/icons/1783.jpg";
+                        MessageBox.Show("This build is not implemented yet. Please make a issue in the github with the Build you are trying to import or add it yourself in the source code and submit a Pull Request!", "Error", MessageBoxButton.OK);
+                        return;
                     }
 
                     foreach (var item in folderInfoList)
@@ -129,12 +214,12 @@ namespace Celestria
                     if (buildExists)
                     {
                         MessageBox.Show("This build is already imported.", "Error", MessageBoxButton.OK);
-                        return; 
+                        return;
                     }
 
 
-                    BuildList(buildName, imageUrl);
-                    folderInfoList.Add(new FolderInfo { buildName = buildName, ImageUrl = imageUrl });
+                    BuildList(buildName, imageUrl, folderPath);
+                    folderInfoList.Add(new FolderInfo { buildName = buildName, ImageUrl = imageUrl, folderPath= folderPath });
                     SaveSettings();
                 }
                 else
@@ -144,7 +229,7 @@ namespace Celestria
             }
         }
 
-        private void BuildList(string buildName, string imageUrl)
+        private void BuildList(string buildName, string imageUrl, string folderPath)
         {
             ListBoxItem newItem = new ListBoxItem();
 
@@ -170,7 +255,6 @@ namespace Celestria
 
             newItem.Background = new SolidColorBrush(Color.FromArgb(76, 0, 0, 0));
 
-
             newItem.PreviewMouseDown += (sender, e) =>
             {
                 e.Handled = true;
@@ -179,10 +263,12 @@ namespace Celestria
             folderList.Items.Add(newItem);
         }
     }
-
         public class FolderInfo
     {
         public string buildName { get; set; }
         public string ImageUrl { get; set; }
+
+        public string folderPath { get; set; }
+
     }
 }

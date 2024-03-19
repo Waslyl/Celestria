@@ -35,5 +35,6 @@
 
         <ListBox x:Name="folderList" Margin="10,95,10,19"/>
         <Button Content="" Margin="872,24,0,0" Height="54" Width="166" Background="Black" VerticalAlignment="Top" Click="ImportButton_Click" Opacity="0"/>
+        <ui:TextBlock HorizontalAlignment="Left" Margin="11,46,0,0" TextWrapping="Wrap" Text="Imported Fortnite Builds " VerticalAlignment="Top" Height="26" Width="1055" Foreground="White" FontSize="20" FontWeight="SemiBold"/>
     </Grid>
 </Page>

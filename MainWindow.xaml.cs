@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics;
+using System.Security.Policy;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -38,6 +40,13 @@ namespace Celestria
         private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             DragMove();
+        }
+
+        private void camthestupid_click(object sender, RoutedEventArgs e)
+        {
+            string url = "https://cash.app/$heszy";
+
+            System.Diagnostics.Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
         }
     }
 }
