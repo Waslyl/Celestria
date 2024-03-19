@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Celestria")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8405961b808be01071140a3d209ce95cdeffc1ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c6ce1ec71852f709837aed4f4e30c915757ef50")]
 [assembly: System.Reflection.AssemblyProductAttribute("Celestria")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Celestria")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -5,7 +5,7 @@
       xmlns:local="clr-namespace:Celestria"
       xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml" x:Class="Celestria.Home"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="450" d:DesignWidth="1065"
       Title="Home">
 
     <Page.Resources>
@@ -29,10 +29,11 @@
     </Page.Triggers>
 
     <Grid>
-        <ui:Image Source="https://cdn.itztiva.com/Import.png" HorizontalAlignment="Left" Margin="29,38,0,0" VerticalAlignment="Top" Height="199" Width="206"/>
-        <Button Content="" Margin="49,38,0,0" Height="223" Width="167" Background="{x:Null}" VerticalAlignment="Top"/>
-        <Rectangle HorizontalAlignment="Left" Height="226" Margin="49,38,0,0" Stroke="Black" VerticalAlignment="Top" Width="167" Fill="Black" Opacity="0.2"/>
-        <ui:TextBlock HorizontalAlignment="Left" Margin="106,218,0,0" TextWrapping="Wrap" Text="Import" VerticalAlignment="Top" Foreground="White" FontSize="18"/>
-    </Grid>
+        <Rectangle HorizontalAlignment="Left" Height="54" Margin="871,24,0,0" Stroke="Black" VerticalAlignment="Top" Width="167" Fill="Black" Opacity="0.2"/>
+        <ui:Image Source="https://cdn.itztiva.com/Import.png" HorizontalAlignment="Left" Margin="871,24,0,0" VerticalAlignment="Top" Height="36" Width="167"/>
+        <ui:TextBlock HorizontalAlignment="Left" Margin="927,48,0,0" TextWrapping="Wrap" Text="Import" VerticalAlignment="Top" Foreground="White" FontSize="18" Height="24" Width="57"/>
 
+        <ListBox x:Name="folderList" Margin="10,95,10,19"/>
+        <Button Content="" Margin="872,24,0,0" Height="54" Width="166" Background="Black" VerticalAlignment="Top" Click="ImportButton_Click" Opacity="0"/>
+    </Grid>
 </Page>

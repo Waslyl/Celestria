@@ -11,17 +11,17 @@ namespace Celestria
         public MainWindow()
         {
             InitializeComponent();
-            contentFrame.Source = new Uri("Home.xaml", UriKind.Relative);
+            contentFrame.Source = new Uri("Pages/Home.xaml", UriKind.Relative);
         }
 
         private void HomeButton_Click(object sender, RoutedEventArgs e)
         {
-            contentFrame.Navigate(new Uri("Home.xaml", UriKind.Relative));
+            contentFrame.Navigate(new Uri("Pages/Home.xaml", UriKind.Relative));
         }
 
         private void DownloadButton_Click(object sender, RoutedEventArgs e)
         {
-            contentFrame.Navigate(new Uri("Download.xaml", UriKind.Relative));
+            contentFrame.Navigate(new Uri("Pages/Download.xaml", UriKind.Relative));
         }
 
 

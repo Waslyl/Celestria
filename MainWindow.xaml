@@ -27,15 +27,15 @@
                          From="0" To="1" Duration="0:0:0.5"/>
         </Storyboard>
     </Window.Resources>
-    
-    
+
+
 
     <Window.Triggers>
         <EventTrigger RoutedEvent="Window.Loaded">
             <BeginStoryboard Storyboard="{StaticResource FadeInAnimation}"/>
         </EventTrigger>
     </Window.Triggers>
-    
+
     <Window.Style>
         <Style TargetType="{x:Type Window}">
             <Setter Property="WindowChrome.WindowChrome">
@@ -57,12 +57,12 @@
         </Style>
     </Window.Style>
 
-    
+
     <Grid>
-        <Rectangle Fill="#2e333f" Height="48" Margin="0,3,0,0" VerticalAlignment="Top" Opacity="0.4"/>
-        <ui:TextBlock HorizontalAlignment="Left" Margin="17,15,0,0" TextWrapping="Wrap" Text="Celestria" VerticalAlignment="Top" Foreground="White" FontSize="15" FontWeight="Bold"/>
-        <Button Content="X" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,10,0" Width="32" Height="30" Click="CloseButton_Click" />
-        <Button Content="-" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,52,0" Width="30" Height="30" Click="MinimizeButton_Click" />
+        <Rectangle Fill="#2e333f" Height="60" VerticalAlignment="Top" Opacity="0.4" Margin="-8,-9,-5,0"/>
+        <ui:TextBlock HorizontalAlignment="Left" Margin="12,15,0,0" TextWrapping="Wrap" Text="Celestria" VerticalAlignment="Top" Foreground="White" FontSize="15" FontWeight="Bold"/>
+        <Button Content="X" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,8,9,0" Width="37" Height="34" Click="CloseButton_Click" />
+        <Button Content="-" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,8,58,0" Width="37" Height="34" Click="MinimizeButton_Click" />
         <Rectangle HorizontalAlignment="Left" Height="613" Margin="0,51,0,0" VerticalAlignment="Top" Width="106" Fill="#FF161A22"/>
         <Frame x:Name="contentFrame" Margin="106,56,0,0"/>
 
