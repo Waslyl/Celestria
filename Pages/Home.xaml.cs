@@ -135,7 +135,7 @@ namespace Celestria
                         buildName = " 1.11";
                         imageUrl = "https://cdn.itztiva.com/ogfnlogo.jpg";
                     }
-                    else if (buildName.Contains(" 1.8"))
+                    else if (buildName.Contains("1.8"))
                     {
                         buildName = " 1.8";
                         imageUrl = "https://cdn.itztiva.com/ogfnlogo.jpg";
